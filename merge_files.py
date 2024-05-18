@@ -11,4 +11,4 @@ for filename in os.listdir(input_path):
         for line in file:
             f = open(output_path, 'a')
             f.write(line)
-            f.close()
+        f.close()
